@@ -3,6 +3,26 @@
     width: 700px;
   }
 }
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 200px;
+  }
+}
+@media (max-width: 340px) {
+  .container {
+    width: 100px;
+  }
+}
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
@@ -21,16 +41,12 @@ ul > li {
 }
 
 #yoann {
-  border-radius: 4%;
+  border-radius: 15%;
+  position: re;
 }
 
 .img-head {
   border-radius: 0%;
-}
-
-headers {
-  color: azure;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -40,12 +56,11 @@ a {
 
 a:hover {
   color:burlywood;
-  background-color: brown;
-  text-decoration: underline;
+  background-color:black;
 }
 
 div {
-  background-color:darkgrey;
+  background-color: rgba(123, 155, 155, 0.7);
   border-radius: 4%;
   border-top: 10px;
   border-right: 10px;
@@ -62,4 +77,18 @@ div {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.word-black:hover {
+  color: black;
+}
+
+#presentation {
+  color:black;
+  font-size: 120%;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+.list-inline img {
+  object-fit: cover;
 }
